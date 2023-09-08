@@ -77,4 +77,19 @@ Console.WriteLine("valor da condicao " + condicao);
    int.TryParse(frase1, out numero);
    Console.WriteLine(numero);
 
-   
+//condicao e debug
+
+    int quantidadeEmEstoque = 10;
+    int quantidadeCompra = 4;
+    bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+    Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+    Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
+    Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+
+    if(possivelVenda){
+      Console.WriteLine("Venda realizada.");
+      quantidadeEmEstoque -= quantidadeCompra;
+    }else{
+      Console.WriteLine("Desculpe. Não temos a qunatidade desejada em estoque.");
+    }
