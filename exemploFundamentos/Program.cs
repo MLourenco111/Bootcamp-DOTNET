@@ -57,3 +57,24 @@ Console.WriteLine("valor da condicao " + condicao);
 
   Console.WriteLine(valor);
   Console.WriteLine(valor1);
+
+  //casting para string
+  //para casting de string é usado ToString pois o metodo é derivado do obj que é o molde generico de todas as classes 
+  int inteiro = 130;
+  string s = inteiro.ToString();
+  Console.WriteLine(s);
+
+  //casting implicito que faz a conversao automaticamente
+  int z = 50;
+  double v = z;
+  Console.WriteLine(v);
+
+ // conversao de maneira segura
+ // metodo tryparse serve para uma conversao segura
+   string frase1 = "15=";
+   int numero = 0;
+
+   int.TryParse(frase1, out numero);
+   Console.WriteLine(numero);
+
+   
