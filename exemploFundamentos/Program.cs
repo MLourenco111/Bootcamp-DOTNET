@@ -149,3 +149,27 @@ Console.WriteLine("valor da condicao " + condicao);
   }else{
       Console.WriteLine("Vou pedalar outro dia");
   }
+
+Calculadora calc = new Calculadora();
+calc.Somar(10,10);
+calc.Subtrair(20,100);
+calc.Multiplicar(1000, 100);
+calc.Dividir(8,8);
+calc.Potencia(10,5);
+calc.Seno(10);
+calc.Coseno(10);
+calc.Tangente(10);
+calc.RaizQuadrada(25);
+
+//incremento e decremento
+int numeroIncremento = 10;
+Console.WriteLine(numeroIncremento);
+Console.Write("Incrementando o 10");
+numeroIncremento++;
+
+Console.WriteLine(numeroIncremento);
+int numerodDecremento = 10;
+Console.WriteLine(numerodDecremento);
+Console.Write("Decrementado o 10");
+numerodDecremento--;
+Console.WriteLine(numerodDecremento);
