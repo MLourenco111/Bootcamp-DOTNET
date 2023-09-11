@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Passando o caminho da classe (namespace)
+using System.Net.Http.Headers;
+using System.Runtime.CompilerServices;
 using exemploFundamentos.Models;
 
 //criando uma instancia da classe Pessoa
@@ -80,16 +82,70 @@ Console.WriteLine("valor da condicao " + condicao);
 //condicao e debug
 
     int quantidadeEmEstoque = 10;
-    int quantidadeCompra = 4;
-    bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+    int quantidadeCompra = 0;
+    bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
     Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
     Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
     Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
 
-    if(possivelVenda){
+  if(quantidadeCompra == 0){
+    Console.WriteLine("Venda invalida");
+  }else if(possivelVenda){
       Console.WriteLine("Venda realizada.");
       quantidadeEmEstoque -= quantidadeCompra;
     }else{
       Console.WriteLine("Desculpe. Não temos a qunatidade desejada em estoque.");
     }
+
+//switch case
+
+  Console.WriteLine("Digite uma letra: ");
+  string letra = Console.ReadLine();
+  
+  switch(letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+      Console.WriteLine("Vogal");
+      break;
+    default:
+      Console.WriteLine("Não é uma vogal");
+      break;
+  }
+
+
+// operador OR
+  bool  maiorDeIdade = false;
+  bool possuiAltorizacaoResponsavel = false;
+
+  if (maiorDeIdade || possuiAltorizacaoResponsavel){
+    Console.WriteLine("Entrada liberada");
+  }else{
+    Console.WriteLine("Entrada não liberada");
+  }
+
+// operador AND
+  const int media = 7;
+  double nota = 7.1;
+  bool presencaMinima = false;
+  bool notaFinal = nota >= media;
+
+  if(presencaMinima && notaFinal){
+    Console.WriteLine("Aprovado!");
+  }else{
+    Console.WriteLine("Reprovado!");
+  }
+
+  //operador NOT
+
+  bool choveu = true;
+  bool estaTarde= false;
+
+  if( !choveu && !estaTarde){
+      Console.WriteLine("Vou pedalar");
+  }else{
+      Console.WriteLine("Vou pedalar outro dia");
+  }

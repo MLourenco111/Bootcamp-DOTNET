@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj",
       "projectName": "exemploFundamentos",
-      "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj",
+      "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\Bootcamp-DOTNET\\exemploFundamentos\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
