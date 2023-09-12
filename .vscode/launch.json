@@ -4,14 +4,15 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/exemploFundamentos/bin/Debug/net7.0/exemploFundamentos.dll",
+            "program": "${workspaceFolder}/ExemploFundamentos/bin/Debug/net7.0/ExemploFundamentos.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/exemploFundamentos",
+            "cwd": "${workspaceFolder}/ExemploFundamentos",
             "console": "internalConsole",
             "stopAtEntry": false
         },
