@@ -210,8 +210,9 @@ Console.WriteLine($"valor da soma {soma}");
 //Menu interativo
 
 string opcao;
+bool exibirMenu = true;
 
-while(true){
+while(exibirMenu){
   Console.Clear(); //limpar o codigo do terminal
   Console.WriteLine("Digite a sua opção: ");
   Console.WriteLine("1 - Cadastras cliente");
@@ -233,7 +234,8 @@ while(true){
     break;
     case "4":
       Console.WriteLine("Encerrar");
-      Environment.Exit(0); //maneira de encerrar o processo / nao executa nada abaixo disso
+      exibirMenu = false;
+      //Environment.Exit(0); //maneira de encerrar o processo / nao executa nada abaixo disso
     break;
 
     default:
@@ -241,3 +243,5 @@ while(true){
     break;
   }
 }
+
+Console.WriteLine("O programa se encerrou");
