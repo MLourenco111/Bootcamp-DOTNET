@@ -101,7 +101,7 @@ Console.WriteLine("valor da condicao " + condicao);
 //switch case
 
   Console.WriteLine("Digite uma letra: ");
-  string letra = Console.ReadLine();
+  string? letra = Console.ReadLine();
   
   switch(letra){
     case "a":
@@ -173,3 +173,34 @@ Console.WriteLine(numerodDecremento);
 Console.Write("Decrementado o 10");
 numerodDecremento--;
 Console.WriteLine(numerodDecremento);
+
+//estrutura for
+int x = 10;
+for(int contador = 0; contador <= 10; contador++){
+  Console.WriteLine($"{x * contador}");
+}
+
+
+//estrutura while
+x = 5;
+int cont = 0;
+while(cont <= 10){
+  Console.WriteLine($"{x * cont}");
+  cont++;
+  //ponto de parada com break
+    if(cont == 6){
+      break;
+    }
+}
+
+// estrutura do while
+
+int soma = 0 , num = 0;
+do{
+ Console.WriteLine("Digite um numero(0 para parar): "); 
+  num = Convert.ToInt32(Console.ReadLine());
+  soma += num;
+
+}while(num != 0);
+
+Console.WriteLine($"valor da soma {soma}");
