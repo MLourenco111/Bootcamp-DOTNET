@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 
 //uma organizacao das suas classes, representa um caminho logico que esteja no mesmo dominio
-namespace exemploFundamentos.Models{
+namespace ExemploFundamentos.Common.Models{
     public class Pessoa{
         // atributos da classe pessoa 
         public string? Nome { get; set; } //get serve para pegar um valor, set para atribuir valor

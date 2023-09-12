@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj": {}
+    "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj": {
+    "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj",
         "projectName": "exemploFundamentos",
-        "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\exemploFundamentos.csproj",
+        "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\exemploFundamentos\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\MeusProjetos\\Bootcamp-DOTNET\\ExemploFundamentos\\ExemploFundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"

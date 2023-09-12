@@ -3,7 +3,7 @@
 using System.ComponentModel.Design;
 using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
-using exemploFundamentos.Models;
+using ExemploFundamentos.Common.Models;
 
 //criando uma instancia da classe Pessoa
 Pessoa p1 = new Pessoa();
