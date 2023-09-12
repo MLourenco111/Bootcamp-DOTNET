@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Passando o caminho da classe (namespace)
+using System.ComponentModel.Design;
 using System.Net.Http.Headers;
 using System.Runtime.CompilerServices;
 using exemploFundamentos.Models;
@@ -204,3 +205,39 @@ do{
 }while(num != 0);
 
 Console.WriteLine($"valor da soma {soma}");
+
+
+//Menu interativo
+
+string opcao;
+
+while(true){
+  Console.Clear(); //limpar o codigo do terminal
+  Console.WriteLine("Digite a sua opção: ");
+  Console.WriteLine("1 - Cadastras cliente");
+  Console.WriteLine("2 - Buscar cliente");
+  Console.WriteLine("3 - Apagar cliente");
+  Console.WriteLine("4 - Encerrar");
+
+  opcao = Console.ReadLine();
+
+  switch(opcao){
+    case "1":
+      Console.WriteLine("Cadastro de cliente");
+    break;
+    case "2":
+      Console.WriteLine("Busca de cliente");
+    break;
+    case "3":
+      Console.WriteLine("Apagar de cliente");
+    break;
+    case "4":
+      Console.WriteLine("Encerrar");
+      Environment.Exit(0); //maneira de encerrar o processo / nao executa nada abaixo disso
+    break;
+
+    default:
+      Console.WriteLine("Opção invalida");
+    break;
+  }
+}
