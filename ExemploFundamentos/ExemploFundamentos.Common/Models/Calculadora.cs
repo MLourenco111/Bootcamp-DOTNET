@@ -7,11 +7,23 @@ namespace ExemploFundamentos.Common.Models
 {
     public class Calculadora
     {
+        /// <summary>
+        ///     Realiza a soma de dois numeros
+        /// </summary>
+        /// <param name="x">o primeiro numero inteiro para somar</param>
+        /// <param name="y">o segundo numero inteiro para somar</param>
         public void Somar(int x, int y){
             Console.WriteLine($"{x} + {y} = {x + y}");
         }
-        public void Subtrair(int x, int y){
+        /// <summary>
+        /// Realiza uma substração de dois valores
+        /// </summary>
+        /// <param name="x">primeiro valor inteiro</param>
+        /// <param name="y">segundo valor inteiro</param>
+        /// <returns>retorna o resultado com um valor inteiro</returns>
+        public int Subtrair(int x, int y){
             Console.WriteLine($"{x} - {y} = {x - y}");
+            return x - y;
         }
         public void Multiplicar(int x, int y){
             Console.WriteLine($"{x} x {y} = {x * y}");

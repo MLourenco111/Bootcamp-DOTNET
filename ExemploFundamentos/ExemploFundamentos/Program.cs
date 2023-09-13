@@ -2,6 +2,10 @@
 
 using System.Diagnostics.Contracts;
 using ExemploFundamentos.Common.Models;
+Calculadora calc = new Calculadora();
+calc.Somar(3, 2);
+calc.Subtrair(10, 5);
+/*
 //lista
 
 List<string> listaString = new List<string>();
@@ -19,7 +23,7 @@ Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {lis
 for(int contador = 0; contador < listaString.Count; contador ++){
   Console.WriteLine($"Posição N° {contador} - {listaString[contador]}");
 }
-
+*/
 // //array
 // int[] arrayInteiros = new int[3];
 // arrayInteiros [0] = 10;
